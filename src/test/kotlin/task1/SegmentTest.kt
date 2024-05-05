@@ -1,8 +1,10 @@
+package task1
+
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvSource
-import ru.kpfu.khismatova.Point
-import ru.kpfu.khismatova.Segment
+import ru.kpfu.khismatova.task1.Point
+import ru.kpfu.khismatova.task1.Segment
 
 class SegmentTest {
 

@@ -1,4 +1,4 @@
-package ru.kpfu.khismatova
+package ru.kpfu.khismatova.task1
 
 /**
  * Окружность с заданным центром и радиусом
@@ -57,11 +57,7 @@ data class Circle(val center: Point, val radius: Double) {
      */
     fun distance(other: Circle): Double {
         val dist = center.distance(other.center)
-        return if (dist > radius + other.radius) {
-            dist - radius - other.radius
-        } else {
-            0.0
-        }
+        return if (dist > radius + other.radius) dist - radius - other.radius else 0.0
     }
 
     /**

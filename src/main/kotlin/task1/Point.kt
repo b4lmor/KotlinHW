@@ -1,4 +1,4 @@
-package ru.kpfu.khismatova
+package ru.kpfu.khismatova.task1
 
 import kotlin.math.sqrt
 
